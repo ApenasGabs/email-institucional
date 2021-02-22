@@ -60,13 +60,14 @@ for (let i = 0; i < 11; i++) {
 
     ulSquares.appendChild(li);
 }
-var part1 = '@alunos' //document.getElementById('ra')
-var part2 = '@alunos'
-var part3 =  '@alunos' //document.getElementById('instituicao')
-var part4 = '.edu.br'
 
 
-var emailInsti = part1 + part2 + part3 + part4 
+function email() {
+    var part1 = document.querySelector("#ra").value;
+    var part2 = '@alunos.';
+    var part3 = document.querySelector("#instituicao").value;
+    var part4 = '.edu.br';
+    var emailInsti = part1 + part2 + part3 + part4;
+    alert('este é teu email '+ emailInsti);
 
-
-console.log(emailInsti)
+}
