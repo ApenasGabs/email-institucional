@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   html,
   body {
     height: 100vh;
@@ -113,6 +113,7 @@
   
   /* Quando clicar no botão, sumir com o form */
   .form-hide {
+    
     animation: down 1.2s forwards;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
@@ -173,3 +174,4 @@
       transform: translateY(-800px) rotate(960deg);
     }
   }
+

@@ -17,17 +17,20 @@
             <form>
                 <div class="input-block">
                     <label for="ra">Seu RA (Somente numeros)</label>
-                    <input type="ra" id="ra" placeholder="123456789001"/>
+                    <input type="ra" id="ra" placeholder="Ex: 123456789001"/>
                 </div>
                 <div class="input-block">
                     <label for="instituicao">Nome da sua instituição de ensino</label>
-                    <input type="instituicao" id="instituicao" placeholder="Unimetrocamp" />
+                    <input type="instituicao" id="instituicao" placeholder="Ex: Unimetrocamp" />
                 </div>
-                <button type="submit" class="btn-login">Login</button>
+                <button type="submit" class="btn-login" onclick="email.emailInsti()">Login</button>
+                <p id="credits">
+                    Made with ❤️ by <a href="https://github.com/Apenasgabs">Apenasgabs</a>
+                </p>
             </form>
+            
         </div>
     </section>
-
     <ul class="squares"></ul>
 
     <script src="script.js"></script>
